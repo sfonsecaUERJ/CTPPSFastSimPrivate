@@ -1,4 +1,4 @@
-## Instructions for CTPPSSim integration (pixel3D and timing) 
+## Instructions:
 
 ```
 cmsrel CMSSW_8_1_0_pre12
@@ -8,6 +8,7 @@ cmsenv
 scram b -j8
 ```
 #### Some examples using CMSDriver commands:
+
 ## MinBias samples included CTPPS FastSim
 
 ```
@@ -15,7 +16,7 @@ cmsDriver.py MinBias_13TeV_pythia8_TuneCUETP8M1_cfi -n 1000 --fast --conditions 
 
 ```
 
-##NO PU + CTPPS FastSim
+## NO PU + CTPPS FastSim
 
 ```
 cmsDriver.py GluGluTo2Jets_M_100_7TeV_exhume_cff.py --conditions auto:run2_mc --fast -n 100 --eventcontent AODSIM -s GEN,SIM,RECOBEFMIX,DIGI:pdigi_valid,RECO --datatier GEN-SIM-DIGI-RECO --beamspot Realistic25ns13TeV2016Collision --pileup NoPileUp --era Run2_25ns --customise SimTransport/HectorProducerForCTPPS/FastSimWithCTPPS_cff.customise --no_exec
