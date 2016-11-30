@@ -7,9 +7,9 @@ LHCTransport = cms.EDProducer("HectorProducerForCTPPS",
     Verbosity = cms.bool(False),
     HectorForCTPPS = cms.PSet(
         HectorEtaCut,
-        Beam1 = cms.string('SimTransport/HectorProducerForCTPPS/data/LHCB1_Beta0.40_6.5TeV_CR205_v6.503.tfs'),
-        Beam2 = cms.string('SimTransport/HectorProducerForCTPPS/data/LHCB2_Beta0.40_6.5TeV_CR205_v6.503.tfs'),
-        CrossingAngle  = cms.double(205.), #in mrad
+        Beam1 = cms.string('SimTransport/HectorProducerForCTPPS/data/LHCB1_Beta0.40_6.5TeV_CR185_v6.503.tfs'),
+        Beam2 = cms.string('SimTransport/HectorProducerForCTPPS/data/LHCB2_Beta0.40_6.5TeV_CR185_v6.503.tfs'),
+        CrossingAngle  = cms.double(185.), #in mrad
         BeamLineLengthCTPPS = cms.double(250.0),
 	    CTPPSf = cms.double(203.827),    ##in meters
         CTPPSb = cms.double(203.827),    ##in meters
