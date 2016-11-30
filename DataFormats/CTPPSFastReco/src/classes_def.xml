@@ -1,0 +1,8 @@
+<lcgdict>
+ <class name="CTPPSFastRecHit" ClassVersion="14">
+ <version ClassVersion="14" checksum="2897018556"/>
+</class>
+    <class name="std::vector<CTPPSFastRecHit>"/>
+    <class name="edm::Wrapper<std::vector<CTPPSFastRecHit> > "/>
+    <class name="std::vector<const CTPPSFastRecHit*>"/>
+</lcgdict>
