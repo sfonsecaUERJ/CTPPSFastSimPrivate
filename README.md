@@ -9,7 +9,7 @@ scram b -j8
 ```
 #### Some examples using CMSDriver commands:
 
-## MinBias samples included CTPPS FastSim
+## MinBias samples including CTPPS FastSim
 
 ```
 cmsDriver.py MinBias_13TeV_pythia8_TuneCUETP8M1_cfi -n 1000 --fast --conditions auto:run2_mc --magField 38T_PostLS1 --beamspot Realistic25ns13TeV2016Collision -s GEN,SIM,RECOBEFMIX --eventcontent FASTPU --datatier GEN-SIM-RECO --era Run2_25ns --fileout minbias.root --customise SimTransport/HectorProducerForCTPPS/FastSimWithCTPPS_cff.customise
