@@ -52,6 +52,13 @@ class CTPPSFastTrack {
 
         float Y2() const {return theY2;}
 
+        float PX() const {return momentum_.x();}
+        float PY() const {return momentum_.Y();}
+        float PZ() const {return momentum_.Z();}
+        float X0() const {return vertex_.x();}
+        float Y0() const {return vertex_.Y();}
+        float Z0() const {return vertex_.Z();}
+    
         unsigned int cellId() const {return theCellId;}
 
         void setP(const Vector& momentum ) { momentum_ = momentum; }
